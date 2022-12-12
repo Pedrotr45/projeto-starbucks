@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 18px;
+}
+
+section > .about {
+     height: calc(100% - 200px);
+    position: relative;
+
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    border-radius: 50%;
+    height: 1000px;
+    background-color: green;
+}
+
+.social-media {
+    position: absolute;
+    right: 510px;
+    top: 180px;
+}
+
+.social-media img {
+    width: 20px;
+    display: block;
+    margin: 20px 0;
+
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-size: 60px;
+}
+
+input[type=submit] {
+    max-width: 700px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
